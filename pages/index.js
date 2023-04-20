@@ -17,18 +17,18 @@ export default function Home({allPostsData}) {
     <Layout home>
       
       <Head>
-        <title>Create Next App</title>
+        <title>Rin's NEXTJS Test App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
     <div>
       <main>
       <h1 className="title">
-         Read <Link href="/posts/first-post">this page!</Link>
+         Rin's <Link href="/posts/first-post">NextJS Test App</Link>
       </h1>
 
 
         <p className={styles.description}>
-          Get started by editing <code>pages/index.js</code>
+          I have <code>no idea</code> what I'm doing! 
         </p>
         
         <p className={styles.description}>

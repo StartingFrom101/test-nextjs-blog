@@ -15,12 +15,12 @@ export async function getStaticProps() {
 export default function Home({allPostsData}) {
   return (
     <Layout home>
-    <div className={styles.container}>
+      
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+    <div>
       <main>
       <h1 className="title">
          Read <Link href="/posts/first-post">this page!</Link>
@@ -35,7 +35,7 @@ export default function Home({allPostsData}) {
           Read the first post <Link href="/posts/first-post">here!</Link>
         </p>
 
-        <div className={styles.grid}>
+        <div >
 
             {allPostsData.map( ({id, date, title}) => (
               <div className={styles.card}>
@@ -111,7 +111,7 @@ export default function Home({allPostsData}) {
           box-sizing: border-box;
         }
       `}</style>
-    </div>
+     </div>
     </Layout>
   )
 }
